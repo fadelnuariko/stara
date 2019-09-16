@@ -1,0 +1,233 @@
+body{
+    background-color: #170C1D;
+}
+
+::placeholder {
+    color: #cccccc;
+    opacity: 1; /* Firefox */
+  }
+.search{
+    background: rgb(103,28,67);
+    background: linear-gradient(90deg, rgba(103,28,67,1) 61%, rgba(116,7,101,1) 100%);
+    color: white;
+    display: block;
+    width:100%;
+    border: none;
+    padding: 16px;
+    padding-left:30px;
+    font-size: 0.8em;
+    cursor: pointer;
+    border-radius:30px;
+}
+.bg-top{
+    background: rgb(121,155,206);
+    background: linear-gradient(90deg, rgba(121,155,206,1) 0%, rgba(140,117,181,1) 100%);
+    padding-left: 0;
+    padding-right: 20px;
+    border-top-left-radius: 8px;
+}
+.btn-pertanyaan{
+    margin:10px;
+    background-color: #28033F;
+    color: white;
+    border: 0;
+    padding:10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.bg-menu-atas{
+    background-color: #D1D2D3;
+    border-top-right-radius: 8px;
+}
+.menu-atas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.menu-atas li{
+   float: left;
+}
+
+.tinggi{
+    height:600px;
+}
+
+.menu-atas li a {
+    display: block;
+    color:#28033F;
+    text-align: center;
+    padding: 10px;
+    padding-left: 25px;;
+    padding-right: 25px;;
+    text-decoration: none;
+    margin-right:10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.menu-atas li a:hover {
+    background-color: #636E97;
+    color:#fff;
+}
+
+.side-menu{
+    background-color: #636E97;
+    border-bottom-left-radius:8px; 
+    padding:0;
+}
+
+.main-content{
+    background-color: #FFFFFF;
+    border-bottom-right-radius:8px; 
+}
+
+.side-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-samping li a {
+    display: block;
+    color:#FFF;
+    padding: 10px;
+    padding-right: 25px;;
+    text-decoration: none;
+    padding-bottom:25px;
+    padding-top:25px;
+    border-bottom: 1px solid #999;
+}
+.menu-samping li a:hover {
+    background-color: #FFF;
+    color:#28033F;
+    font-weight: 500;
+}
+
+.active a{
+    background-color: #FFF;
+    color:#28033F !important;
+    font-weight: 500;
+}
+
+.isi-menu{
+    margin-left:20px;
+}
+
+.text-biru-muda{
+    color:#A5DDEE;
+}
+.text-pink{
+    color:#F2799E;
+}
+
+.as-tabel{
+    display: table; height: 50px; overflow: hidden;
+}
+.tengah{
+    display: table-cell; vertical-align: middle;
+    font-weight: 500;
+    color: #FFF;
+    text-align: center;
+}
+
+.notif{
+    background-color: #6A174B;
+    color:#FFF;
+    vertical-align: middle;
+}
+
+.penanda{
+    background-color: #9E005D;
+    width:20px;
+    height: 20px;
+    border: #EA9AFF 4px solid;
+    float: left;
+    margin-right: 20px;
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+.judul{
+    color: #28033F;
+    font-weight: 500;
+}
+
+.live{
+    background-color: #636E97;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.nama_live{
+    font-weight: 500;
+    color: #FFF;
+    margin-top: -5px;
+}
+.jabatan{
+    font-size: 12px;
+    color: #FFF;
+    margin-top: -5px;
+}
+.waktu_langsung{
+    
+    font-size: 10px;
+    color: #28033F;
+    margin-top: 5px;
+}
+
+.divider-right{
+    border-right:2px #5C5C5C solid;
+}
+
+  
+  /* CSS talk bubble */
+  .talk-bubble {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height:230px;
+    background-color: #CCCCCC;
+  }
+  
+  .round{
+    border-radius: 10px;
+  }
+  
+  
+  /*Right triangle, placed bottom left side slightly in*/
+  .tri-right.border.btm-left:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -8px;
+    right: auto;
+    top: auto;
+    bottom: -40px;
+  }
+  .tri-right.btm-left:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    right: auto;
+    top: auto;
+    bottom: -20px;
+    border: 22px solid;
+    border-color: transparent transparent transparent #CCCCCC;
+  }
+  
+.category_question{
+    font-size: 11px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    color: rgb(42, 55, 100);
+}
+
+hr{
+    border: 2px solid #CCC;
+}
